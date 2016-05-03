@@ -1,0 +1,97 @@
+
+/*MAIN STYLING*/
+
+html, body {
+  background: #FBFFE0;
+  height: 100%;
+  font-family: 'Arimo', sans-serif;
+
+}
+
+/* HEADER */
+
+header {
+  background: #B0FF61;
+  height: 50px;
+}
+
+/* LANDING */
+
+#landing {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+/*It appears that this landing page class is not doing anything */
+#landing .landingPage {
+  background: #8C591D;
+  width: 418px;
+  height: 240px;
+
+}
+
+#landing h1 {
+  font-family: 'Arimo';
+  text-align: center;
+  font-size: 55px;
+  font-weight: 400;
+  position: absolute;
+  left:0;
+  top: 0;
+  background: #62B0FF;
+  height: 100px;
+  width: 75%;
+
+}
+
+#landing p {
+  position: absolute;
+  background: #FF62B0;
+  height: 75px;
+  width: 50%;
+  right:0;
+  bottom:0;
+}
+
+#landing .landingPage img {
+  position: absolute;
+  width: 100%;
+}
+
+
+/* SLIDESHOW */
+
+#slideshow {
+  background: #FBFFE0;
+  height: 500px;
+
+}
+
+
+/* MENU */
+
+#menu {
+  background: #FF62B0;
+  height: 500px;
+}
+
+
+
+/* CONTACT */
+
+#contact {
+  background: #62B0FF;
+  height: 500px;
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+  background: #B0FF61;
+  height: 75px;
+}

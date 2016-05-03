@@ -1,0 +1,28 @@
+{
+  "name": "tacero",
+  "version": "0.0.1",
+  "description": "An online info page for Jesse mendoza's taco business",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jguardado/tacero.git"
+  },
+  "author": "Juan Guardado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jguardado/tacero/issues"
+  },
+  "homepage": "https://github.com/Jguardado/tacero#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jquery": "^2.2.3",
+    "nodemon": "^1.9.2",
+    "simplelightbox": "^1.8.3"
+  },
+  "engines": {
+    "node": "^6.0.0"
+  }
+}
