@@ -19,9 +19,36 @@ html, body {
 
 /* HEADER */
 
+/*Working with using fixed to have header constantly visible. There are many
+other options but this is first attempt
+
+If I remove the fixed position the header and nav bar will re-appear
+
+*/
 header {
+  position: fixed;
   background: #B0FF61;
   height: 50px;
+  z-index: 1;
+}
+
+header h4 {
+  font-size: 35px;
+  position: absolute;
+  left: 0;
+}
+
+header nav {
+  position: absolute;
+  right: 0;
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+  display: inline-block;
 }
 
 /* LANDING */
@@ -42,6 +69,8 @@ header {
 }
 
 #landing h1 {
+  line-height: 95px;
+  vertical-align: baseline;
   text-align: center;
   font-size: 55px;
   font-weight: 400;
@@ -61,6 +90,9 @@ header {
   width: 50%;
   right:0;
   bottom:0;
+  text-align: center;
+  vertical-align: baseline;
+  line-height: 60px;
 }
 
 #landing .landingPage img {
