@@ -4,7 +4,8 @@
   "description": "An online info page for Jesse mendoza's taco business",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
