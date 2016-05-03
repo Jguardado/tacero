@@ -1,3 +1,12 @@
+/*
+
+Since I include that reset.css all tags no longer have theri associated characteristics
+so h1 - h6 must be set, along with img, strong, p, a, all of the commonly used tags must
+have their CSS styling reset. Hence the name.
+
+*/
+
+
 
 /*MAIN STYLING*/
 
@@ -33,7 +42,6 @@ header {
 }
 
 #landing h1 {
-  font-family: 'Arimo';
   text-align: center;
   font-size: 55px;
   font-weight: 400;
