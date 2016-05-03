@@ -1,9 +1,9 @@
 # taquero
 
-###information page for Jesse Mendoza's tacero buisness
+###information page for Jesse Mendoza's taquero buisness
 
 #Tita's Tacos
 
 ###online presence
 
-provides conatc information, menu and photos of past events
+provides contact information, menu and photos of past events
